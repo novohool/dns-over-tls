@@ -20,7 +20,7 @@ func main() {
 
 	conf := config.Config{
 		//Cloudflare's dns as resolver
-		UpStreamResolverIp:   "1.1.1.1",
+		UpStreamResolverIp:   "getdnsapi.net",
 		UpStreamResolverPort: "853",
 		TCPPort:              ":53",
 		UPDPort:              ":53",
